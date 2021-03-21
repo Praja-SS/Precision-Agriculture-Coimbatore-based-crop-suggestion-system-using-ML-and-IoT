@@ -1,0 +1,39 @@
+Models we saw in papers:
+
+Random Forest using randomized search - 95%
+CHAID (Decision Tree) - 90.3%
+ANN - 91%
+Naive Bayes
+kNN with Cross Validation - 88%
+SVM (Support Vector Machine) - 89.66%
+
+Combination of SVM and ANN
+Combination of kNN and ANN
+Random Forest, Naive Bayes, CHAID - 92%
+Random Forest, Naive Bayes and Linear SVM are the three
+independent base learners that have been used to build the
+ensemble model. 
+Ensemble - kNN, Naive Bayes, CHAID, Random Forest - 88%
+
+Attributes we saw in papers:
+Soil Type, pH, EC, Season, Temperature, Rainfall, N, P, K, Soil Erosion, Permeability, Yield, Drainage, Thickness of aquifer and top soil, 
+Location, Altitude, Longitude, Latitude, Distance from sea, Humidity, Soil Texture, Water Holding Capacity
+
+Crops we saw in papers:
+Millet, groundnut, pulses, cotton, vegetables, banana, paddy, sorghum, sugarcane, coriander
+Five major (bajra, jowar, maize, rice and wheat) and 
+Fifteen minor (barley, cotton, groundnut, gram, jute, other pulses, potato, ragi, tur, rapeseed and mustard, sesame, soybean, sugarcane, sunflower, tobacco) crops.
+Groundnut, Cotton, Sugarcane, Banana, Paddy, Coriander, Cashew, Coffee, Jute, ragi, bajra
+Mango, Gingelly, Tomato, Groundnut, Chilli, Red Gram, Green Gram, Onion, Sunflower
+
+Fixed:
+Ensemble(3) (Majority Voting): 
+Random Forest, CHAID, kNN
+Random Forest, Naive Bayes, kNN
+
+kNN initially then ANN
+ANN alone
+
+Attributes (Tentative):
+
+temperature, humidity, soil moisture, soil pH, EC, N, P, K, area, type of soil, Crop (Output) 

@@ -1,0 +1,6 @@
+without maize - sorghum, groundnut - 86
+with maize, sorghum, groundnut - 78
+without groundnut, maize - sorghum
+blackgram - kuruka with just sorghum - 90...
+2,3,1 weights for dt,rf,knn - 89.27
+3,5,1 weights for dt,rf,knn - 89.69
